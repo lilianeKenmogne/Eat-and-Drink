@@ -1,0 +1,37 @@
+#drinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.drinks-item {
+    width: 300px;
+    height: 400px;
+    border: .5px solid #fac4c4;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.drinks-item img {
+    width: 180px;
+    height: 250px;
+}
+
+.drinks-item>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.drinks-title {
+    font-size: 20px;
+    color: #212245;
+}

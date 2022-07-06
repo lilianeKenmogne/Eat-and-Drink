@@ -1,0 +1,35 @@
+#hoot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.hoot-item {
+    width: 300px;
+    height: 300px;
+    border: .5px solid #fac4c4;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hoot-item img {
+    width: 180px;
+    height: 180px;
+}
+
+.hoot-item>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.hoot-title {
+    font-size: 20px;
+    color: #212245;
+}

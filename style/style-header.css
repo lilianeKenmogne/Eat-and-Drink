@@ -1,0 +1,69 @@
+#header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 40px;
+}
+
+#header-text {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+    padding-bottom: 50px;
+
+}
+
+#header-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.text-norm-20 {
+    font-size: 20px;
+    color: #212245;
+}
+
+.text-bold-40-red {
+    font-size: 40px;
+    color: #df2020;
+    font-weight: bolder;
+    display: block;
+}
+
+.text-bold-20-blue {
+    font-size: 20px;
+    color: #212245;
+    font-weight: bold;
+}
+
+#bouton-commander {
+    background-color: #df2020;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    font-size: 17px;
+    text-transform: capitalize;
+    box-sizing: content-box;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#atouts {
+    margin-top: 35px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+#atouts div {
+    font-size: 15px;
+    margin-right: 30px;
+}
