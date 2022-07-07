@@ -37,12 +37,25 @@
                 <span>Eat and Drink</span>
             </div>
             <div id="nav">
-                <ul>
-                    <li>Accueil</li>
-                    <li>Repas</li>
-                    <li>Panier</li>
-                    <li>contacts</li>
-                </ul>
+                <div id="previous-nav">
+                    <ul>
+                        <li>Accueil</li>
+                        <li>Repas</li>
+                        <li>Panier</li>
+                        <li>contacts</li>
+                    </ul>
+                </div>
+                <div id="new-nav">
+                    <a href="#" onclick="afficher()">icon</a>
+                    <div id="new-nav-menu">
+                        <ul>
+                            <li>Accueil</li>
+                            <li>Repas</li>
+                            <li>Panier</li>
+                            <li>contacts</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
             <div id="actions">
                 <i class="bi bi-basket-fill"></i>
@@ -388,7 +401,17 @@
             <i class="bi bi-youtube"></i>
         </div>
     </footer>
-
+    <script>
+        function afficher() {
+            let x = document.getElementById("new-nav-menu");
+            if (x.style.display === "block") {
+                x.style.display = "none"
+            }
+            else {
+                x.style.display = "block"
+            }
+        }
+    </script>
 </body>
 
 </html>

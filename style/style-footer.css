@@ -6,6 +6,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 
 footer>div {
@@ -13,6 +14,8 @@ footer>div {
     justify-content: space-between;
     align-items: center;
     width: 90%;
+    flex-wrap: wrap;
+
 }
 
 footer>div>div {
